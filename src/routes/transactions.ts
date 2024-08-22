@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify'
 import { z } from 'zod'
-import { knex } from '../routes/database'
+import { knex } from '../database'
 import { randomUUID } from 'node:crypto'
 import { checkSessionIdExists } from '../middlewares/check-sessin-id-exists'
 
